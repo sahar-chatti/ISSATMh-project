@@ -2,6 +2,7 @@
     "version": 2,
       "framework": null,
     "functions": {
+        "api/users/**/*.js": {"maxDuration": 30},
         "api/index.php": { "runtime": "vercel-php@0.5.0" }
     },
     "routes": [{
